@@ -1,5 +1,5 @@
 require.config({
-    baseUrl: '/events-canjs/javascripts',
+    baseUrl: '/events-micro-app/javascripts',
     paths: {
     	'domReady': 'lib/require-domReady',
         'jquery': 'jquery',
