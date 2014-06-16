@@ -33,6 +33,7 @@ span {
 
 .tab.selected {
 	color: black;
+	cursor: none;
 	font-style: italic;
 }
 
