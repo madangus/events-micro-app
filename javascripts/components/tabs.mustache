@@ -1,0 +1,7 @@
+<ul class="tabs">
+	{{#each panels}}
+		<li class="tab {{#if isSelected}}selected{{/if}}" can-click="select">{{title}}</li>
+	{{/each}}
+</ul>
+<content />
+

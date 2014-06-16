@@ -1,0 +1,51 @@
+body {
+	font-size: 100%;
+	margin: 16px auto;
+	width: 75%;
+}
+
+p,
+li,
+span {
+	font-size: 14px;
+}
+
+.tabs {
+	font-size: 0;
+	list-style: none;
+	margin: 0 auto 12px auto;
+}
+
+.tabs .tab {
+	border: 2px solid #ddd;
+	display: inline-block;
+	font-size: 16px;
+	/* Lets use the granular weights even tho it won't make any real difference here */
+	font-weight: 600;
+	text-align: center;
+	width: 30%;
+}
+
+.tab {
+	color: blue;
+}
+
+.tab.selected {
+	color: black;
+	font-style: italic;
+}
+
+.events {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.events th {
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+}
+
+.events td {
+	padding: 16px 24px 0 0;
+}

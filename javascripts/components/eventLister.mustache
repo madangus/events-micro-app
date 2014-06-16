@@ -1,0 +1,25 @@
+<table class="events">
+	<tr>
+		<th>Name</th>
+		<th>Date</th>
+		<th>Venue</th>
+		<th>City</th>
+		<th>State</th>
+		<th colspan="2">Action</th>
+	</tr>
+	{{#each events}}
+		<tr>
+			<td>{{name}}</td>
+			<td>{{date}}</td>
+			<td>{{venue.name}}</td>
+			<td>{{venue.city}}</td>
+			<td>{{venue.state}}</td>
+			<td>
+				<a href="javascript://" can-click="edit">Edit</a>
+			</td>
+			<td> 
+				<a href="javascript://" can-click="destroy">Delete</a>
+			</td>
+		</tr>
+	{{/each}}
+</table>
