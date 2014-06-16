@@ -4,7 +4,9 @@ Simple app playing with canjs components and fixtures.
 
 ### Setup
 
-Drop into a webserver and visit <ROOT>/events-micro-app/app.html
+Drop into a webserver and visit <ROOT>/events-micro-app/index.html
+
+Or visit http://theplaidlab.com/events-micro-app/
 
 ### Todo
 

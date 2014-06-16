@@ -28,6 +28,7 @@ span {
 
 .tab {
 	color: blue;
+	cursor: pointer;
 }
 
 .tab.selected {
@@ -48,4 +49,11 @@ span {
 
 .events td {
 	padding: 16px 24px 0 0;
+}
+
+
+footer {
+	font-size: 12px;
+	margin-top: 80px;
+	text-align: center;
 }
