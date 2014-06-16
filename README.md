@@ -12,7 +12,7 @@ Drop into a webserver and visit <ROOT>/events-micro-app/app.html
 
 2. Finish add event
 
-3.Edit event
+3. Edit event
 
 4. Group by locale (3rd tab)
 
